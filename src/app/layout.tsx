@@ -9,7 +9,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en">
       <body className="">
-        <div className="background-wrapper">
+        <div className="min-h-screen background-wrapper">
           <div className="background-image"></div>
           <div className="overlay"></div>
         </div>

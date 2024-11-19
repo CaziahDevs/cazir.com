@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .background-wrapper {
   position: fixed;
   top: 0;
