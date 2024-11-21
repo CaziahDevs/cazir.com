@@ -1,14 +1,11 @@
 import React from 'react'
 import "./about.css"
-import { PageWrapper } from '@/app/components/pageWrapper'
 
 const about = () => {
   return (
-    <PageWrapper blur>
-      <div className=''>
+    <div className='relative z-10'>
 
-      </div>
-    </PageWrapper>
+    </div>
 
   )
 }

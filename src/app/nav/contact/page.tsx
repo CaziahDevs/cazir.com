@@ -1,14 +1,11 @@
-import { PageWrapper } from '@/app/components/pageWrapper'
 import React from 'react'
 
 const page = () => {
   return (
-    <PageWrapper blur>
-      <div className=''>
+      <div className='relative z-10'>
 
         
       </div>
-    </PageWrapper>
   )
 }
 
