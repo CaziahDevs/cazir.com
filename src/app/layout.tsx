@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="">
         <div className="min-h-screen background-wrapper">
-          <div className="background-image"></div>
+          <div className="background-image  bg-[url('../../public/cazir-mobile.png')] sm:bg-[url('../../public/cazir-2.jpg')]"></div>background: url();
           <div className="overlay"></div>
         </div>
         <AnimatePresence>
