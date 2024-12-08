@@ -11,17 +11,16 @@ export default function RootLayout({
   children: React.ReactNode; 
 }>) {
 
-  const pathname = usePathname();
-  const shouldBlur = pathname !== '/'; // Don't blur on home page
-
+const pathname = usePathname();
+const shouldBlur = pathname !== '/'; // Don't blur on home page
   return (
     <html lang="en">
       <body className="">
         <div className="min-h-screen background-wrapper">
-          <div className="background-image  bg-[url('../../public/cazir-mobile.png')] sm:bg-[url('../../public/cazir-2.jpg')]"></div>background: url();
+          <div className="background-image  bg-[url('../../public/cazir-mobile.png')] sm:bg-[url('../../public/cazir-2.jpg')]"></div>
           <div className="overlay"></div>
         </div>
-        <AnimatePresence>
+        {/* <AnimatePresence>
             {shouldBlur && (
               <motion.div 
                 key="blur-overlay"
@@ -32,9 +31,8 @@ export default function RootLayout({
                 transition={{ duration: 1 }}
               />
             )}
-          </AnimatePresence>
-        
-        <Header />
+          </AnimatePresence> */}
+        <Header/>
         <main>
           {children}
         </main>
